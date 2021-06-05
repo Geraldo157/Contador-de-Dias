@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap');
+
+*{
+  color: #e7dfdd;
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+  background-color: #0e0b16;
+  display: block;
+  margin-left: -100px;
+  text-align: center;
+}
+.grupo{
+  margin-top: 60px;
+}
+section{
+  background-color: #a239ca;
+  display: block;
+  height: 300px;
+  width: 1000px;
+  border-radius: 1000px;
+  margin-left: 270px;
+  text-align: center;
+}
+input{
+  width: 180px;
+  font-size: 20px;
+  max-width: max-content;
+  color:#0e0b16;
+}
+h1{
+  font-size: 40px;
+}
+.h1{
+  margin-left: 100px;
+}
+p{
+  font-size: 20px;
+  margin-top: -15px;
+}
+#ano1,#ano2{
+  width: 70px;
+}
+#btn{
+  width: 150px;
+  margin-top: 20px;
+  color:#0e0b16;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.data-inicial{
+  margin-left: -400px;
+}
+.data-final{
+  margin-left: 400px;
+  margin-top: -95px;
+}
+canvas{
+  background-color:#e7dfdd;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+h2{
+  margin-top: 70px;
+  margin-left: 90px;
+}
+.salva{
+  margin-top: 20px;
+  font-size: 18px;
+  margin-left: 90px;
+}
+strong{
+  color: #0e0b16;
+  font-style: normal;
+}

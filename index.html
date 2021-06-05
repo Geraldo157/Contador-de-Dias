@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contador.css">
+    <title>Contador de Dias</title>
+</head>
+<body>
+<section class="grupo">
+    <header>
+        <h1>Contador de Dias</h1>
+        <p>Descubra quantos dias faltam para aquela data especial! 😄</p>
+    </header>
+    <main>
+        <form>
+            <div class="data-inicial">
+                <h3>Data inicial</h3>
+                <input type="date" name="dd/mm/aaaa" id="initial">
+            </div>
+            <div class="data-final">
+                <h3>Data final</h3>
+                <input type="date" name="dd/mm/aaaa" id="final">
+            </div>
+            <input type="submit" value="Calcular" id="btn">
+        </form>
+    </main>
+</section>
+    <p class="hoje"></p>
+    <script src="contador.js"></script>
+</body>
+</html>
